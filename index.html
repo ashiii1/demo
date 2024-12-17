@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental - Home</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #00796b;
+      color: #fff;
+      padding: 15px 0;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      text-align: center;
+      padding: 20px;
+    }
+    .car-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    figure {
+      max-width: 300px;
+      margin: 0;
+      
+    }
+    figure img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 10px 15px 10px gray;
+
+    }
+    figcaption {
+      font-weight: bold;
+      margin-top: 8px;
+      color: #004d40;
+    }
+    footer {
+      background-color: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav ul li {
+        margin: 10px 0;
+      }
+      .car-images {
+        gap: 10px;
+      }
+      figure {
+        flex: 1 1 calc(50% - 10px);
+        max-width: 45%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="customer-details.html">Customer Details</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Welcome to Our Car Rental Service</h1>
+    <p>Explore the best car options for your rental needs.</p>
+    <div class="car-images">
+      <figure>
+        <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Honda/City/9710/1677914238296/front-left-side-47.jpg" alt="Honda City">
+        <figcaption>Smooth ride with Honda City</figcaption>
+      </figure>
+      <figure>
+        <img src="https://ymimg1.b8cdn.com/uploads/article/4580/pictures/3323761/listing_main_Top_3_Most_Beautiful_Cars__7_.jpg" alt="Maruti Swift">
+        <figcaption>Reliable choice with Maruti Swift</figcaption>
+      </figure>
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mahindra_Thar_Photoshoot_At_Perupalem_Beach_%28West_Godavari_District%2CAP%2CIndia_%29_Djdavid.jpg/800px-Mahindra_Thar_Photoshoot_At_Perupalem_Beach_%28West_Godavari_District%2CAP%2CIndia_%29_Djdavid.jpg" alt="Mahindra Thar">
+        <figcaption>Adventure awaits with Mahindra Thar</figcaption>
+      </figure>
+      <figure>
+        <img src="https://img.freepik.com/premium-photo/car-with-neon-lights_81048-35726.jpg?semt=ais_hybrid" alt="Honda City">
+        <figcaption>Drive luxury with Honda City</figcaption>
+      </figure>
+      <figure>
+        <img src="https://t4.ftcdn.net/jpg/05/37/32/57/360_F_537325726_GtgjRiyc37BLPn9OmisBVVZec9frLaL0.jpg" alt="Maruti Swift">
+        <figcaption>Choose comfort with Maruti Swift</figcaption>
+      </figure>
+      <figure>
+        <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/M5-2025/11821/1719462197562/front-left-side-47.jpg?impolicy=resize&imwidth=480" alt="Mahindra Thar">
+        <figcaption>Mahindra Thar for ultimate thrill</figcaption>
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Car Rental Company. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

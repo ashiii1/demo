@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #004d40;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background-color: #00695c;
+      padding: 15px;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      margin: 50px auto;
+      max-width: 900px;
+    }
+    .box {
+      max-width: 700px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-sizing: border-box;
+      box-shadow: 10px 4px 8px gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .container > .box {
+      height: auto;
+      flex: 1 1 calc(50% - 50%);
+    }
+    .box img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      text-align: center;
+      color: #004d40;
+      margin-bottom: 20px;
+    }
+    form label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+   
+    form button {
+      width: 100%;
+      padding: 12px;
+      background-color: #004d40;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #00695c;
+    }
+    footer {
+      background-color: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .info {
+      text-align: center;
+    }
+    .info p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav ul li {
+        margin: 10px 0;
+      }
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .box {
+        max-width: 90%;
+      }
+      .fisrt-box {
+    max-width: 100%; 
+    padding: 30px;
+  }
+    
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="customer-details.html">Customer Details</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="box">
+      <div class="fisrt-box">
+      <h2>Login</h2>
+      <form action="#">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <div class="forgot-password">
+          <a href="#">Forgot Password?</a>
+        </div>
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div> 
+    <div class="box">
+      <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/M5-2025/11821/1719462197562/front-left-side-47.jpg?impolicy=resize&imwidth=480" alt="Car Image">
+      <div class="info">
+        <h2>Book Your Dream Car</h2>
+        <p>Login to access our exclusive car rental services. Choose from a wide range of cars and enjoy a seamless booking experience.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Car Rental Company. All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>

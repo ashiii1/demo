@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Car Rental Company</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #004d40;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            background-color: #00695c;
+            margin: 0;
+            padding: 15px;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .content {
+            text-align: center;
+        }
+        .content h2 {
+            color: #004d40;
+            margin-bottom: 20px;
+        }
+        .services {
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+        .services h3 {
+            color: #00695c;
+            margin-bottom: 10px;
+        }
+        .services ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        .services ul li {
+            margin-bottom: 10px;
+        }
+        .location {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            gap: 20px;
+        }
+/*         
+.location:nth-child(even) .image-container {
+            order: 1;
+        }  */
+       
+        .image-container {
+            flex: 0 0 300px;
+            max-width: 300px;
+        }
+        .image-container img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 10px 15px 10px gray;
+
+        }
+        .location-info {
+            flex: 1;
+        }
+        footer {
+      background-color: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+        @media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .location {
+        flex-direction: column;
+    }
+
+    .image-container, .location-info {
+        flex: unset;
+        max-width: 100%;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }}
+
+    </style>
+</head>
+<body>
+
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="customer-details.html">Customer Details</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div class="content">
+        <h2>About Us</h2>
+        <p>Welcome to our Car Rental Service, where we offer a wide range of vehicles to cater to your travel and transportation needs. Our mission is to provide you with convenient, affordable, and reliable rental services to ensure a smooth journey every time.</p>
+        <div class="services">
+            <h3>Our Services</h3>
+            <ul>
+                <li>Wide selection of cars, from economy to luxury vehicles.</li>
+                <li>24/7 customer support to assist you anytime.</li>
+                <li>Affordable rental plans with flexible durations.</li>
+                <li>Easy online booking and hassle-free pickup/drop-off.</li>
+                <li>Fully insured vehicles for your peace of mind.</li>
+                <li>Special packages for long-term rentals and corporate clients.</li>
+                <li>GPS-equipped cars for seamless navigation.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="location">
+        <div class="image-container">
+            <img src="https://tfiworld.com/wp-content/uploads/2024/05/104.jpg" alt="Honda City">
+        </div>
+        <div class="location-info">
+            <h3>Location 1 - New York</h3>
+            <p>Our New York office is located in the heart of the city, providing convenient access to tourists and locals alike. We offer a wide variety of vehicles for your needs, from compact cars to luxury options.</p>
+        </div>
+    </div>
+
+    <div class="location">
+        <div class="image-container">
+            <img src="https://images.jazelc.com/uploads/galpinlotus-m2e/P1010960-1024x575-1.jpeg" alt="Toyota Camry">
+        </div>
+        <div class="location-info">
+            <h3>Location 2 - Los Angeles</h3>
+            <p>Our Los Angeles branch offers a wide range of vehicles perfect for navigating the city and surrounding areas. Whether you're exploring the beaches or the hills, we've got the right car for your adventure.</p>
+        </div>
+    </div>
+
+    <div class="location">
+        <div class="image-container">
+            <img src="https://www.dailybreeze.com/wp-content/uploads/2019/09/TDB-Z-AIRPORT-RENTALS-01-1.jpg?w=609" alt="BMW 5 Series">
+        </div>
+        <div class="location-info">
+            <h3>Location 3 - Miami</h3>
+            <p>In Miami, we offer a premium fleet of cars suited for both business and leisure travelers. Enjoy the luxury of a BMW or the practicality of an SUV for your tropical getaway.</p>
+        </div>
+    </div>
+
+    <div class="location">
+        <div class="image-container">
+            <img src="https://a1auto.sfo2.cdn.digitaloceanspaces.com/media/los-angeles-car-shipping-facilities.jpg?hash=64910a4274e56efea77f697f5f712def6e413ad9c9ae114c6406b68417840777" alt="Mercedes-Benz GLC">
+        </div>
+        <div class="location-info">
+            <h3>Location 4 - Chicago</h3>
+            <p>Our Chicago location is centrally located to serve travelers arriving at both airports and those staying in the city. Our fleet includes luxury and sports cars for those looking to add a little excitement to their stay.</p>
+        </div>
+    </div>
+
+    <div class="location">
+        <div class="image-container">
+            <img src="https://sgtautotransport.com/sites/default/files/styles/webp_image_original/public/storage/dealership_shows_new_cars.jpg.webp?itok=fPFN5wAw" alt="Audi Q7">
+        </div>
+        <div class="location-info">
+            <h3>Location 5 - San Francisco</h3>
+            <p>Our San Francisco office offers a variety of vehicles for both urban and outdoor adventures. Rent a sleek Audi for city cruising or an SUV for an excursion into the stunning nature around the Bay Area.</p>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 Car Rental Company. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
